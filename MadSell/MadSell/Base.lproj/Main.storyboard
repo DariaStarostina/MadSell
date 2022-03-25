@@ -48,6 +48,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Вы еще не с нами? Зарегистрируйтесь!"/>
+                                <connections>
+                                    <segue destination="B7M-3d-7ej" kind="presentation" modalPresentationStyle="fullScreen" id="bq7-1Q-9PL"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ehx-eK-x2k">
                                 <rect key="frame" x="170" y="794" width="429" height="31"/>
@@ -55,6 +58,9 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                 <state key="normal" title="Забыли пароль?"/>
+                                <connections>
+                                    <segue destination="0Tk-LQ-rGi" kind="presentation" modalPresentationStyle="fullScreen" id="00c-GY-SFe"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ocd-wK-bt3">
                                 <rect key="frame" x="170" y="854" width="429" height="76"/>
@@ -66,6 +72,9 @@
                                     <color key="titleColor" red="0.30260878800000002" green="0.28236436840000001" blue="0.28235241770000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                     <color key="titleShadowColor" red="0.85098046059999999" green="0.85098046059999999" blue="0.85098046059999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Iad-00-ZLY" kind="presentation" modalPresentationStyle="fullScreen" id="zhn-mv-tFl"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -121,6 +130,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1238855794" green="0.30108648539999999" blue="0.61162620779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Iad-00-ZLY" kind="presentation" modalPresentationStyle="fullScreen" id="q3P-hP-B3i"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TsW-Vg-FCE">
                                 <rect key="frame" x="170" y="782" width="429" height="31"/>
@@ -171,6 +183,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1238855794" green="0.30108648539999999" blue="0.61162620779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Iad-00-ZLY" kind="presentation" modalPresentationStyle="fullScreen" id="p77-Du-2bU"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Электронная почта" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="3JW-yJ-XTX">
                                 <rect key="frame" x="88" y="165" width="592" height="59"/>
@@ -201,6 +216,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1238855794" green="0.30108648539999999" blue="0.61162620779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="EgP-ac-17L" kind="presentation" modalPresentationStyle="fullScreen" id="g1G-7X-m7m"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="cWI-og-7ah"/>
@@ -244,6 +262,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1238855794" green="0.30108648539999999" blue="0.61162620779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Iad-00-ZLY" kind="presentation" modalPresentationStyle="fullScreen" id="Ofc-iu-AxT"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Электронная почта" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="nO5-d7-C5f">
                                 <rect key="frame" x="88" y="165" width="592" height="59"/>
@@ -280,6 +301,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1238855794" green="0.30108648539999999" blue="0.61162620779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="UP1-y2-Tc4" kind="presentation" modalPresentationStyle="fullScreen" id="ZV9-mu-HwI"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="c0W-PC-ZCd"/>
@@ -323,6 +347,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1238855794" green="0.30108648539999999" blue="0.61162620779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Iad-00-ZLY" kind="presentation" modalPresentationStyle="fullScreen" id="wMd-Ds-RYI"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dw8-fb-0ww">
                                 <rect key="frame" x="180" y="477" width="408" height="71"/>
@@ -335,6 +362,9 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="titleShadowColor" red="0.1238855794" green="0.30108648539999999" blue="0.61162620779999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
+                                <connections>
+                                    <segue destination="EgP-ac-17L" kind="presentation" modalPresentationStyle="fullScreen" id="ul6-Wh-nS0"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="bezel" placeholder="Электронная почта" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7Rr-hm-PKG">
                                 <rect key="frame" x="88" y="165" width="592" height="59"/>
@@ -548,6 +578,10 @@
             <point key="canvasLocation" x="3789.84375" y="63.867187499999993"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="zhn-mv-tFl"/>
+        <segue reference="g1G-7X-m7m"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Ellipse 2" width="60" height="60"/>
         <image name="Ellipse 3" width="31" height="31"/>
